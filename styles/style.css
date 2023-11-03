@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+
+h2 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    padding: 3rem;
+    width: 550px;
+    background-color: salmon;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero, .resultado{
+    display: block;
+    width: 400px;
+    height: 35px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* centrar el placeholder */
+.numero::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;/* Centrado vertical */
+  }
+
+.btn{
+    width: 90px;
+    height: 25px;
+    border: 2px solid black;
+    margin: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
