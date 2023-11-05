@@ -7,12 +7,12 @@
 // }
 
 // ¿Que es el tercer parámetro recibido?
-//El tercer parametro que recibe suma() es una funcion callback
+// El tercer parametro que recibe suma() es una funcion callback
 
 // ¿En que casos es obligatorio desarrollar este tipo de funciones?
-//Las funciones callback son utiles para asegurarse de que un determinado código no se ejecuta hasta que otro codigo haya terminado de ejecutarse.
+// Las funciones callback son utiles para asegurarse de que un determinado código no se ejecuta hasta que otro codigo haya terminado de ejecutarse.
 
 // Realizar un llamado a la función de ejemplo
-//suma(2,3,callback)
+// suma(2,3,callback)
 
 

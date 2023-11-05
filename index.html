@@ -15,18 +15,21 @@
                 <div class="calculadora">
                     <input type="number" name="numero" id="numero1" class="numero" placeholder="Ingrese el primer numero" required>
                     <input type="number" name="numero" id="numero2" class="numero" placeholder="Ingrese el segundo numero" required>
-                    <input type="button" name="suma" id="suma" class="btn" value="Sumar">
-                    <input type="button" name="resta" id="resta" class="btn" value="Restar">
-                    <input type="button" name="multiplicacion" id="multiplicacion" class="btn" value="Multiplicar">
-                    <input type="button" name="division" id="division" class="btn" value="Dividir"><br>
-                    <input type="text" name="resultado" placeholder="Resultado" class="numero resultado" id="resultado" readonly>
+                    <button type="button" name="suma" id="suma" class="btn" onclick="sumar()">Sumar</button>
+                    <button type="button" name="resta" id="resta" class="btn" onclick="restar()">Restar</button>
+                    <button type="button" name="division" id="division" class="btn" onclick="dividir()">Dividir</button>
+                    <button type="button" name="multiplicacion" id="multiplicacion" class="btn" onclick="multiplicar()">Multiplicar</button>
+                    <input type="text" name="resultado" placeholder="Resultado" class="numero resultado" id="resultado" readonly >
+                    <button type="reset" class="numero resultado">Reset</button>
         
                 </div>
             </form> 
         </div>
     </section>
 
-    
+    <footer>
+        <p>Sara ELisa Olivera - 2023</p>
+    </footer>
 </body>
 <script src="app/ejercicio2.js"></script>
 </html>
